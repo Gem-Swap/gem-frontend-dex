@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://wakandaswap.finance',
+    href: '/',
   },
   {
     label: 'Trade',
@@ -30,15 +30,15 @@ const config: MenuEntry[] = [
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
+  // {
+  //   label: 'Lottery',
+  //   icon: 'TicketIcon',
+  //   href: 'https://wakandaswap.net/lottery',
+  // },
   {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: 'https://wakandaswap.finance/lottery',
-  },
-  {
-    label: 'IWO',
+    label: 'IDO',
     icon: 'PoolIcon',
-    href: 'https://wakandaswap.finance/iwo',
+    href: '#',
   },
   // {
   //   label: 'NFT',
@@ -50,20 +50,20 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'WakandaSwap',
-        href: 'https://info.wakandaswap.finance/token/0x5344c20fd242545f31723689662ac12b9556fc3d',
+        label: 'PancakeSwap',
+        href: '#',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/wakanda-inu/',
+        href: '#',
       },
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/wakanda-inu/',
+        href: '#',
       },
       {
         label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x5344c20fd242545f31723689662ac12b9556fc3d',
+        href: '#',
       },
     ],
   },
@@ -73,7 +73,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/wakandaswap/',
+        href: '#',
       },
       // {
       //   label: 'Docs',
@@ -81,7 +81,7 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Blog',
-        href: 'https://wakandainu.medium.com/',
+        href: '#',
       },
     ],
   },
@@ -94,7 +94,7 @@ const config: MenuEntry[] = [
   {
     label: 'Audit by CertiK',
     icon: 'ShieldIcon',
-    href: 'https://certik.org/projects/wakanda-inu/',
+    href: '#',
   },
 ]
 

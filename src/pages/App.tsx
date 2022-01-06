@@ -37,7 +37,8 @@ const BodyWrapper = styled.div`
   overflow-x: hidden;
   z-index: 1;
   justify-content: center;
-  // background-image: url('/images/group-pancake.svg');
+  background: #0d0e21;
+  background-image: url('/images/map.svg');
   // background-repeat: no-repeat;
   // background-position: bottom 24px center;
   // background-size: 90%;

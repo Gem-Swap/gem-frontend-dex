@@ -19,7 +19,6 @@ import SyrupWarningModal from 'components/SyrupWarningModal'
 import ProgressSteps from 'components/ProgressSteps'
 
 import { INITIAL_ALLOWED_SLIPPAGE } from 'constants/index'
-import PANCAKESWAP_DEFAULT_TOKEN_LIST from 'constants/token/wakandaswap.json'
 import { useActiveWeb3React } from 'hooks'
 import { useCurrency } from 'hooks/Tokens'
 import { ApprovalState, useApproveCallbackFromTrade } from 'hooks/useApproveCallback'
@@ -54,20 +53,6 @@ const Swap = () => {
     () => [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => c instanceof Token) ?? [],
     [loadedInputCurrency, loadedOutputCurrency]
   )
-  
-  const tokenWhitelisted: boolean = useMemo(
-    () => {
-      const tokenAddress = loadedUrlParams?.outputCurrencyId?.toLowerCase()
-      if (!tokenAddress) return false
-
-      const foundToken = PANCAKESWAP_DEFAULT_TOKEN_LIST.tokens.find(t => t.address.toLowerCase() === tokenAddress)
-      if (!foundToken) return false
-
-      return true
-    },
-    [loadedUrlParams]
-  )
-  
   const handleConfirmTokenWarning = useCallback(() => {
     setDismissTokenWarning(true)
   }, [])
@@ -275,7 +260,7 @@ const Swap = () => {
   return (
     <>
       <TokenWarningModal
-        isOpen={urlLoadedTokens.length > 0 && !dismissTokenWarning && !tokenWhitelisted}
+        isOpen={urlLoadedTokens.length > 0 && !dismissTokenWarning}
         tokens={urlLoadedTokens}
         onConfirm={handleConfirmTokenWarning}
       />
