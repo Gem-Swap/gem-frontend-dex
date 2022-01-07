@@ -1,4 +1,4 @@
-import { MenuEntry } from '@wakandaswap-libs/uikit'
+import { MenuEntry } from '@gemswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {

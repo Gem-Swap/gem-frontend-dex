@@ -2382,6 +2382,17 @@
     "@ethersproject/properties" "^5.0.7"
     "@ethersproject/strings" "^5.0.8"
 
+"@gemswap-libs/uikit@^0.1.2":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@gemswap-libs/uikit/-/uikit-0.1.5.tgz#7972ed8a6a4aef7b9a46faecd15b388e5d465af0"
+  integrity sha512-tkIZcjgkvegeXbMXR1hxjMUIZthxIFLW2agROm+AjrTBn9YM0cGwHynaRB1ds2vnnw+VTTYRXiMAW5xUbvCVMw==
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 "@graphql-tools/batch-delegate@^6.2.4", "@graphql-tools/batch-delegate@^6.2.6":
   version "6.2.6"
   resolved "https://registry.yarnpkg.com/@graphql-tools/batch-delegate/-/batch-delegate-6.2.6.tgz#fbea98dc825f87ef29ea5f3f371912c2a2aa2f2c"
@@ -4767,17 +4778,6 @@
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
-
-"@wakandaswap-libs/uikit@^0.1.2":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@wakandaswap-libs/uikit/-/uikit-0.1.3.tgz#d6f5a9632f3266e0f749f9c03e39199063ff8f8f"
-  integrity sha512-K1qTZ0yi4KhrlO8xUQonoZsSROlB6LXTlgHfOmcE3eFDUHYiB68Jp6tM4tBvH2IfMFBQ/9fz3QS69NdXop9t7Q==
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
 
 "@wakandaswap-libs/wakanda-swap-core@^0.1.0":
   version "0.1.0"

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from '@wakandaswap-libs/uikit'
+import { Text } from '@gemswap-libs/uikit'
 import { ChainId, Currency, currencyEquals, ETHER, Token } from '@wakandaswap-libs/sdk'
 import styled from 'styled-components'
 
