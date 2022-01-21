@@ -75,10 +75,10 @@ const config: MenuEntry[] = [
         label: 'Github',
         href: '#',
       },
-      // {
-      //   label: 'Docs',
-      //   href: 'https://goosedefi.gitbook.io/wakanda-inu//',
-      // },
+      {
+        label: 'Docs',
+        href: '#',
+      },
       {
         label: 'Blog',
         href: '#',
