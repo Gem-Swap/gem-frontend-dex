@@ -33,7 +33,7 @@ const config: MenuEntry[] = [
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
-  //   href: 'https://wakandaswap.net/lottery',
+  //   href: '#',
   // },
   {
     label: 'IDO',
@@ -73,11 +73,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: '#',
+        href: 'https://github.com/Gem-Swap',
       },
       {
         label: 'Docs',
-        href: '#',
+        href: 'https://gemdev.gitbook.io/gemswap/',
       },
       {
         label: 'Blog',
