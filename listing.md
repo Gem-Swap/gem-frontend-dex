@@ -10,10 +10,10 @@ If you are seeking to be added to the [Pancakeswap.finance](https://pancakeswap.
 
 ## Adding Tokens
 
-1. Fork the [WakandaSwap Dex Frontend](https://github.com/wakandaswap/wakanda-frontend-dex/) repository on GitHub
+1. Fork the [GemSwap Dex Frontend](https://github.com/Gem-Swap/gem-frontend-dex/) repository on GitHub
 2. Upload your **logo** in a 96\*96px transparent .png format to the `/public/images/coins` directory. Please name the logo as your symbol in uppercase.
 
-3. Add your **token information** using the example format provided below to `wakandaswap.json` in the `/src/constants/token/` directory.
+3. Add your **token information** using the example format provided below to `gemswap.json` in the `/src/constants/token/` directory.
 
 4. Create a **pull request** detailing information about your project, website address, and contact details (telegram)
 
@@ -27,16 +27,16 @@ If you are seeking to be added to the [Pancakeswap.finance](https://pancakeswap.
 
 ```json
 {
-"name": "WakandaSwap Token",
-"symbol": "WAKANDA",
-"address": "0x5344c20fd242545f31723689662ac12b9556fc3d",
+"name": "Gemswap",
+"symbol": "GSP",
+"address": "0xE5cD504D3c1a0a3E3E2faafdcd611BA6a30f427b",
 "chainId": 56,
-"decimals": 9,
-"logoURI": "/images/coins/WAKANDA.png"
+"decimals": 18,
+"logoURI": "/images/coins/GSP.png"
 },
 ```
 
-If you're not comfortable with GitHub pull requests, please open a [new issue](https://github.com/wakandaswap/wakanda-frontend-dex/issues/new) requesting to be added.
+If you're not comfortable with GitHub pull requests, please open a [new issue](https://github.com/Gem-Swap/gem-frontend-dex/issues/new) requesting to be added.
 
 ## Reviews
 
