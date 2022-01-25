@@ -2382,10 +2382,10 @@
     "@ethersproject/properties" "^5.0.7"
     "@ethersproject/strings" "^5.0.8"
 
-"@gemswap-libs/uikit@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@gemswap-libs/uikit/-/uikit-0.1.9.tgz#b031936906155c635c35e4841fd71f6985821779"
-  integrity sha512-rAyWapRKbGG3NbPXIB7e+h973/oyjAOCoSH4JpKX3pZWSpvkqcLntU2h16ThR00jKTXkeNVVE4NDu8oIGhRciA==
+"@gemswap-libs/uikit@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@gemswap-libs/uikit/-/uikit-0.2.1.tgz#5080413e878fe28efa0b6734541fececf72c2abb"
+  integrity sha512-IOAlzDMmLo9D5XNSU4XZ0pBKmfTvNlzNDePjeleLFWwq/g/fqqrl+yBEcvI4/iwMAH+4+jH0Dhht7C3MvD4xtA==
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
