@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: '/',
+    href: 'https://app.gemswap.org/',
   },
   {
     label: 'Trade',
@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: '/',
+        href: 'https://exchange.gemswap.org/',
       },
       {
         label: 'Liquidity',
